@@ -1,0 +1,19 @@
+.textblock{
+    color: white;
+    background: #323035;  
+    padding: 0.5em;
+    margin: 5px 0px 0px 0px; 
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.name{
+    letter-spacing: 2px;
+    font-weight: bold;  
+    text-transform: uppercase;
+    text-align: right;   
+    color: #FF69B4; 
+}

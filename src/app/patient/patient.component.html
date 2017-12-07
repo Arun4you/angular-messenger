@@ -1,0 +1,24 @@
+<br>
+<div class="row">
+  <div class="col-lg-6 offset-lg-3">
+      <h5>Sibling Component2</h5>
+    <div class="input-group">        
+      <input type="text" (keyup.enter)="pushMessages()" name="message" [(ngModel)]="message" class="form-control" placeholder="Sibling2's message..." aria-label="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" (click)="pushMessages()" type="button">Go!</button>
+      </span>
+    </div>
+ 
+<div>
+  <div *ngFor="let chat of chatArry | slice:-5">
+  <br>
+  <div class="name">
+    {{chat.name}} 
+  </div>      
+      <div class="textblock">
+      {{chat.message}}
+  </div> 
+  </div>
+</div>
+</div>
+</div>

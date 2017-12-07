@@ -1,0 +1,10 @@
+.bgcolor{
+    background-color: #3a4250;
+    height:600px;
+    width: 100%    
+}
+
+.parent{
+    font-weight: bold;
+    font-size: 1.5em; 
+}
